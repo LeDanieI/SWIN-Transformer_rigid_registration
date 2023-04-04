@@ -4,9 +4,7 @@ Swin transformer for rigid image registration.
 
 ## Requirements
 
-<pre><code>
-
-matplotlib==3.7.0
+<pre><code>matplotlib==3.7.0
 monai==1.1.0 
 numpy==1.23.5
 python==3.10.9
@@ -24,6 +22,8 @@ conda install -c conda-forge timm
 conda install -c conda-forge einops
 pip install ml-collections</code></pre>
   
+## Data
+OASIS 1 dataset retrieved from https://learn2reg.grand-challenge.org/Datasets/ or https://oasis-brains.org/
 ## Source code 
 This project uses source code from:
 1. Swin-Transformer code retrieved from https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation
