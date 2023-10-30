@@ -20,7 +20,12 @@ conda install -c simpleitk simpleitk
 conda install -c conda-forge matplotlib tqdm
 conda install -c conda-forge timm
 conda install -c conda-forge einops
-pip install ml-collections</code></pre>
+pip install ml-collections
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117 --upgrade --force-reinstall
+
+
+</code></pre>
   
 ## Data
 OASIS 1 dataset retrieved from https://learn2reg.grand-challenge.org/Datasets/ or https://oasis-brains.org/
