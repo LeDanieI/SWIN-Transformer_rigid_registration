@@ -22,6 +22,7 @@ conda install -c conda-forge timm
 conda install -c conda-forge einops
 pip install ml-collections
 
+conda create -n py3109 python=3.10.9
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117 --upgrade --force-reinstall
 
 
